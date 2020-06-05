@@ -251,8 +251,9 @@ footer .contacts-item a {
   font-weight: 400;
   letter-spacing: 0.03em;
 }
+/* Поменял цвет текста для его видимости */
 .item-description {
-  color: #ffffff;
+  color: #c0bbbb;
   font-size: 18px;
   line-height: 1.56;
 }
