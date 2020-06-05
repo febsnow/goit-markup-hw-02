@@ -13,10 +13,12 @@
   </head>
   <body>
     <header>
-      <p class="logo" id="top"><span class="decor">Web</span> Studio</p>
+      <p class="logo" id="top"><span class="active">Web</span> Studio</p>
       <nav class="navigation">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#">Студия</a></li>
+          <li class="nav-item active">
+            <a href="#">Студия</a>
+          </li>
           <li class="nav-item"><a href="./portfolio.html">Портфолио</a></li>
           <li class="nav-item"><a href="#">Контакты</a></li>
         </ul>
@@ -24,7 +26,8 @@
       <ul class="contacts-list">
         <li class="contacts-item">
           <a href="mailto:info@devstudio.com">
-            <img src="./images/envelope(hover).svg" alt="Иконка конверта" /> info@devstudio.com</a
+            <img src="./images/envelope(hover).svg" alt="Иконка конверта" />
+            info@devstudio.com</a
           >
         </li>
         <li class="contacts-item">
@@ -47,28 +50,28 @@
           <li class="features-item">
             <img src="./images/antenna.png" alt="Изображение антенны" />
             <h3 class="item-title">Внимание к деталям</h3>
-            <p class="text">
+            <p class="item-text">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li class="features-item">
             <img src="./images/clock.png" alt="Изображение часов" />
             <h3 class="item-title">Пунктуальность</h3>
-            <p class="text">
+            <p class="item-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li class="features-item">
             <img src="./images/pc.png" alt="Изображение компьютера" />
             <h3 class="item-title">Планирование</h3>
-            <p class="text">
+            <p class="item-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li class="features-item">
             <img src="./images/spaceman.png" alt="Изображение космонавта" />
             <h3 class="item-title">Современные технологии</h3>
-            <p class="text">
+            <p class="item-text">
               Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
@@ -79,18 +82,21 @@
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="we-do-list">
           <li class="we-do-item">
-            <a class="item-title" href="#">
-              <img src="./images/laptop.jpg" alt="Изображение ноутбука" /> Десктопные приложения</a
+            <a class="item-link" href="#">
+              <div class="item-image"><img src="./images/laptop.jpg" alt="Изображение ноутбука" /></div>
+              <h3 class="item-title">Десктопные приложения</h3></a
             >
           </li>
           <li class="we-do-item">
-            <a class="item-title" href="#"
-              ><img src="./images/cell-phone.jpg" alt="Изображение телефона" /> Мобильные приложения</a
+            <a class="item-link" href="#">
+              <div class="item-image"><img src="./images/cell-phone.jpg" alt="Изображение телефона" /></div>
+              <h3 class="item-title">Мобильные приложения</h3></a
             >
           </li>
           <li class="we-do-item">
-            <a class="item-title" href="#"
-              ><img src="./images/imac.jpg" alt="Изображение монитора" /> Дизайнерские решения</a
+            <a class="item-link" href="#">
+              <div class="item-image"><img src="./images/imac.jpg" alt="Изображение монитора" /></div>
+              <h3 class="item-title">Дизайнерские решения</h3></a
             >
           </li>
         </ul>
@@ -203,12 +209,16 @@
       </section>
     </main>
     <footer>
-      <a class="logo" href="#top"><span class="decor">Web</span> Studio</a>
+      <a class="logo" href="#top"><span class="active">Web</span> Studio</a>
       <address class="address">
         <ul class="address-list">
           <li class="address-item">г. Киев, пр-т Леси Украинки, 26</li>
-          <li class="contacts-item"><a href="mailto:info@example.com">info@example.com</a></li>
-          <li class="contacts-item"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="contacts-item">
+            <a href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
       <p class="join">Присоединяйтесь</p>
